@@ -21,6 +21,7 @@
 		// working on a hidden element
 		@include vendor('transform', translate3d(0, 0, 0));
 
+		border-radius: 3px;
 		// HACK: visibility is set to hidden because IE & Opera don't support
 		// pointer-events on HTML content yet because of which hovering a hidden tooltip
 		// shows the tooltip.
