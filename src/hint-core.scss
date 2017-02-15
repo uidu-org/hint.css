@@ -66,6 +66,9 @@
 		padding: $hintVerticalPadding $hintHorizontalPadding;
 		font-size: $hintFontSize;
 		font-family: inherit;
+		text-transform: none;
+		font-style: initial;
+		font-weight: initial;
 		line-height: $hintFontSize; // Vertical centering.
 		white-space: nowrap; // Prevent breaking to new line.
 	}

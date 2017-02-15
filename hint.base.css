@@ -64,6 +64,9 @@
     padding: 8px 10px;
     font-size: 12px;
     font-family: inherit;
+    text-transform: none;
+    font-style: initial;
+    font-weight: initial;
     line-height: 12px;
     white-space: nowrap; }
   [class*="hint--"][aria-label]:after {
