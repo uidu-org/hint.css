@@ -63,6 +63,7 @@
     color: white;
     padding: 8px 10px;
     font-size: 12px;
+    font-family: inherit;
     line-height: 12px;
     white-space: nowrap; }
   [class*="hint--"][aria-label]:after {
@@ -380,7 +381,6 @@
 	 * tooltip body
 	 */ }
   [class*="hint--"]:after {
-    text-shadow: 0 -1px 0px black;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); }
 
 /**
@@ -399,8 +399,7 @@
  * Error
  */
 .hint--error:after {
-  background-color: #b34e4d;
-  text-shadow: 0 -1px 0px #592726; }
+  background-color: #b34e4d; }
 
 .hint--error.hint--top-left:before {
   border-top-color: #b34e4d; }
@@ -430,8 +429,7 @@
  * Warning
  */
 .hint--warning:after {
-  background-color: #c09854;
-  text-shadow: 0 -1px 0px #6c5328; }
+  background-color: #c09854; }
 
 .hint--warning.hint--top-left:before {
   border-top-color: #c09854; }
@@ -461,8 +459,7 @@
  * Info
  */
 .hint--info:after {
-  background-color: #3986ac;
-  text-shadow: 0 -1px 0px #1a3c4d; }
+  background-color: #3986ac; }
 
 .hint--info.hint--top-left:before {
   border-top-color: #3986ac; }
@@ -492,8 +489,7 @@
  * Success
  */
 .hint--success:after {
-  background-color: #458746;
-  text-shadow: 0 -1px 0px #1a321a; }
+  background-color: #458746; }
 
 .hint--success.hint--top-left:before {
   border-top-color: #458746; }

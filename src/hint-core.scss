@@ -65,7 +65,7 @@
 		color: white;
 		padding: $hintVerticalPadding $hintHorizontalPadding;
 		font-size: $hintFontSize;
-		// font-family: $hintFontFamily;
+		font-family: inherit;
 		line-height: $hintFontSize; // Vertical centering.
 		white-space: nowrap; // Prevent breaking to new line.
 	}
